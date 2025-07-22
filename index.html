@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>公大高専 エネルギー機械コース紹介</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="main.css">
+    <!-- Google Fonts - Inter for general text -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        /* Custom styles for the Inter font and default background/text colors */
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #F0F8FF; /* AliceBlue - very light blue/white */
+            color: #1A202C; /* Dark gray/black for text */
+        }
+        /* Specific styling for sections to ensure blue/white background and black text */
+        .section-blue {
+            background-color: #3B82F6; /* Tailwind blue-500 */
+            color: #FFFFFF; /* White text */
+        }
+        .section-white {
+            background-color: #FFFFFF; /* White background */
+            color: #1A202C; /* Dark gray/black text */
+        }
+    </style>
+</head>
+<body class="antialiased">
+    <!-- ヘッダーセクション -->
+    <header class="bg-blue-700 text-white p-4 shadow-lg">
+        <div class="container mx-auto flex flex-col md:flex-row justify-between items-center">
+            <h1 class="text-3xl font-bold mb-2 md:mb-0 rounded-md p-2">
+                <a href="#hero" class="hover:text-blue-200 transition-colors duration-300">
+                    公大高専 エネルギー機械コース
+                </a>
+            </h1>
+            <nav>
+                <ul class="flex flex-wrap justify-center space-x-4 md:space-x-6 text-lg">
+                    <li><a href="#overview" class="hover:text-blue-200 transition-colors duration-300 rounded-md p-2">コース概要</a></li>
+                    <li><a href="#curriculum" class="hover:text-blue-200 transition-colors duration-300 rounded-md p-2">学習内容</a></li>
+                    <li><a href="#features" class="hover:text-blue-200 transition-colors duration-300 rounded-md p-2">コース特徴</a></li>
+                    <li><a href="#practical-training" class="hover:text-blue-200 transition-colors duration-300 rounded-md p-2">実習の様子</a></li>
+                    <li><a href="https://www.ct.omu.ac.jp/" target="_blank" rel="noopener noreferrer" class="hover:text-blue-200 transition-colors duration-300 rounded-md p-2">高専公式サイト</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- ヒーローセクション -->
+    <section id="hero" class="relative bg-gradient-to-r from-blue-600 to-blue-800 text-white py-20 md:py-32 flex items-center justify-center text-center rounded-b-lg shadow-xl">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl md:text-6xl font-extrabold mb-6 leading-tight drop-shadow-lg">
+                未来を動かす！エネルギー機械コースへようこそ
+            </h2>
+            <p class="text-xl md:text-2xl mb-8 max-w-3xl mx-auto opacity-90">
+                持続可能な社会を築くための技術を学び、地球と人々のより良い暮らしに貢献しよう！
+            </p>
+            <a href="#overview" class="inline-block bg-white text-blue-700 font-bold py-3 px-8 rounded-full shadow-lg hover:bg-blue-100 hover:scale-105 transition-all duration-300 transform">
+                コースについて詳しく見る
+            </a>
+        </div>
+    </section>
+
+    <!-- コースの概要・目標セクション -->
+    <section id="overview" class="section-white py-16 md:py-24 px-4 rounded-lg shadow-md mx-auto my-8 max-w-6xl">
+        <div class="container mx-auto">
+            <h3 class="text-4xl font-bold text-center mb-10 text-blue-700">コースの概要・目標</h3>
+            <div class="flex flex-col md:flex-row items-center md:space-x-8">
+                <div class="md:w-1/2 mb-8 md:mb-0">
+                    <!-- 概要セクションの画像 -->
+                    <img src="gaiyou.png" alt="エネルギー機械コースの概要イメージ" class="rounded-lg shadow-lg w-full h-auto object-cover">
+                </div>
+                <div class="md:w-1/2 text-lg leading-relaxed">
+                    <p class="mb-4">
+                        エネルギー機械コースでは、輸送機械や発電所などの産業インフラの設計と運用に必要な技術を学びます。
+                        私たちの生活を支える大きな機械がどのように動いているのか、その仕組みを深く理解することができます。
+                    </p>
+                    <p class="mb-4">
+                        さらに、水素エネルギー、水力・風力エネルギーなどのクリーンエネルギーの創生と貯蔵技術、微生物利用や自然再生などの環境調和技術、自然災害の予測分析、次世代の食料品、医薬化粧品の装置・製造技術など、
+                        人のより良い暮らしと環境・エネルギーとの共生を実現するための最先端技術の修得を目指します。
+                    </p>
+                    <p>
+                        地球に優しく、人々の生活を豊かにする技術を一緒に学び、未来を創造しましょう！
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 主な学習内容セクション -->
+    <section id="curriculum" class="section-blue py-16 md:py-24 px-4 rounded-lg shadow-md mx-auto my-8 max-w-6xl">
+        <div class="container mx-auto">
+            <h3 class="text-4xl font-bold text-center mb-10 text-white">主な学習内容</h3>
+            <p class="text-lg text-center mb-8 text-white opacity-90">
+                エネルギー機械コースで学ぶ、代表的な専門科目を紹介します。
+            </p>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300">
+                    <h4 class="text-2xl font-semibold mb-4 text-blue-700">基礎から応用まで</h4>
+                    <ul class="list-disc list-inside text-gray-800 text-lg space-y-2">
+                        <li>機械工学概論</li>
+                        <li>基礎製図、CAD製図</li>
+                        <li>機械設計製図、機械設計</li>
+                        <li>機械力学、材料力学</li>
+                    </ul>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300">
+                    <h4 class="text-2xl font-semibold mb-4 text-blue-700">エネルギーと流れの科学</h4>
+                    <ul class="list-disc list-inside text-gray-800 text-lg space-y-2">
+                        <li>熱力学、流れ学</li>
+                        <li>エネルギー変換工学</li>
+                        <li>機械工作法</li>
+                        <li>材料力学</li>
+                    </ul>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300">
+                    <h4 class="text-2xl font-semibold mb-4 text-blue-700">実践的な技術</h4>
+                    <ul class="list-disc list-inside text-gray-800 text-lg space-y-2">
+                        <li>生産加工工学</li>
+                        <li>制御工学</li>
+                        <li>卒業研究</li>
+                        <li>その他、最新技術に関する科目</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- コースの特徴セクション -->
+    <section id="features" class="section-white py-16 md:py-24 px-4 rounded-lg shadow-md mx-auto my-8 max-w-6xl">
+        <div class="container mx-auto">
+            <h3 class="text-4xl font-bold text-center mb-10 text-blue-700">コースの特徴</h3>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 text-lg">
+                <div class="bg-blue-50 p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300">
+                    <h4 class="text-2xl font-semibold mb-4 text-blue-700">実践的な学び</h4>
+                    <p>
+                        理論だけでなく、実験や実習を多く取り入れ、実際に手を動かすことで深く理解できます。
+                        最新の設備を使った実習で、エンジニアとしての基礎をしっかりと身につけます。
+                    </p>
+                </div>
+                <div class="bg-blue-50 p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300">
+                    <h4 class="text-2xl font-semibold mb-4 text-blue-700">未来を創る技術</h4>
+                    <p>
+                        クリーンエネルギー、環境技術、防災技術など、これからの社会に必要とされる最先端の技術を学びます。
+                        持続可能な社会の実現に貢献できる人材を目指します。
+                    </p>
+                </div>
+                <div class="bg-blue-50 p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300">
+                    <h4 class="text-2xl font-semibold mb-4 text-blue-700">手厚いサポート</h4>
+                    <p>
+                        先生と学生の距離が近く、きめ細やかな指導が受けられます。
+                        疑問に思ったことはすぐに質問でき、じっくりと学ぶことができる環境です。
+                    </p>
+                </div>
+                <div class="bg-blue-50 p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300">
+                    <h4 class="text-2xl font-semibold mb-4 text-blue-700">多様な進路</h4>
+                    <p>
+                        卒業後は、大学への編入や、様々な分野の企業への就職など、幅広い選択肢があります。
+                        あなたの「好き」を仕事に繋げる道が見つかります。
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 実習の様子セクション -->
+    <section id="practical-training" class="section-blue py-16 md:py-24 px-4 rounded-lg shadow-md mx-auto my-8 max-w-6xl">
+        <div class="container mx-auto">
+            <h3 class="text-4xl font-bold text-center mb-10 text-white">実習の様子</h3>
+            <p class="text-lg text-center mb-8 text-white opacity-90">
+                実際に学生たちが学んでいる様子を写真で紹介します。
+            </p>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300">
+                    <!-- 機械工作実習1の画像 -->
+                    <img src="kikai1.PNG" alt="機械工作実習1（CNC工作機械加工）" class="w-full h-auto object-cover">
+                    <div class="p-4 bg-white text-gray-800">
+                        <p class="font-semibold text-xl mb-2">機械工作実習1（CNC工作機械加工）</p>
+                        <p class="text-base">
+                            本テーマでは、CNC工作機械による機械部品の自動加工を通じて、ツーリング、加工原点設定、MDI(Manual Data Input)操作等のCNC工作機械の基本操作を学習します。
+                            また、CNC工作機械によるモノづくりの加工工程を自動化・デジタル化するためのNCプログラミング(Gコード)を学習します。
+                        </p>
+                    </div>
+                </div>
+                <div class="rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300">
+                    <!-- 機械工作実習2の画像 -->
+                    <img src="kikai2.PNG" alt="機械工作実習2（空気エンジン製作）" class="w-full h-auto object-cover">
+                    <div class="p-4 bg-white text-gray-800">
+                        <p class="font-semibold text-xl mb-2">機械工作実習2（空気エンジン製作）</p>
+                        <p class="text-base">
+                            旋盤やボール盤、シャーリング機、コンタマシーン等を使用し空気エンジンの部品を製作します。
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- フッターセクション -->
+    <footer class="bg-blue-700 text-white p-6 mt-12 text-center rounded-t-lg shadow-lg">
+        <div class="container mx-auto">
+            <p>&copy; 2025 公大高専 エネルギー機械コース. All rights reserved.</p>
+            <p class="mt-2">
+                <a href="https://www.ct.omu.ac.jp/courses/energy-mechanics/" target="_blank" rel="noopener noreferrer" class="hover:underline">
+                    公大高専 エネルギー機械コース 公式サイトはこちら
+                </a>
+            </p>
+        </div>
+    </footer>
+
+    <!-- JavaScript for smooth scrolling -->
+    <script src="script.js"></script>
+</body>
+</html>
